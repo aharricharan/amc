@@ -229,7 +229,13 @@ const Cart = (props) => {
   }
 
   if (!data.length) {
-    return (<div>Your shopping cart is empty.</div>)
+    return (
+      <div>
+        {
+          checkout.response ? "Checkout completed. Return to the product page to continue" : "Your shopping cart is empty."
+        }
+      </div>
+      )
   }
   return (
       <div>

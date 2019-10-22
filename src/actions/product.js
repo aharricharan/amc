@@ -81,6 +81,11 @@ export const processCart = (data) => {
          type:SUBMIT_PRODUCT_SUCCESS,
          payload: json
       })
+      //short cut for now
+      dispatch({
+         type:DELETE_PRODUCT_FROM_CART,
+         product: data.items[0]
+      })
      }
      catch (err) {
       dispatch({
