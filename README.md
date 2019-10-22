@@ -15,6 +15,6 @@ Start up the node server.<br />
 Navigate to src/server, then run npm start.
 
 ### `Cases`
-http://localhost:3000/product
-http://localhost:3000/product?promo=SPECIALFAN
+http://localhost:3000/product<br />
+http://localhost:3000/product?promo=SPECIALFAN<br />
 You can also enter the promo code (SPECIALFAN) on checkout when SPECIALFAN is not in the URL
